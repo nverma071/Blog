@@ -17,7 +17,7 @@ Route::controller(AppController::class)->group(function(){
 });
 
 Route::controller(AdminController::class)->group(function(){
-       Route::get('admin/dashboard','admin.dashboard')->name('dashboard');
+       Route::get('admin/dashboard','dashboard')->name('admindashboard');
     // Route::get('aboutus','aboutUs')->name('aboutus');
     // Route::get('contactus','contactUs')->name('contactus');
     // Route::get('blog/{slug}','blog')->name('blog');
