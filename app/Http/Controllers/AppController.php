@@ -6,19 +6,24 @@ use Illuminate\Http\Request;
 
 class AppController extends Controller
 {
-    function index(){
+    function index()
+    {
         return view('index');
     }
-    function aboutUs(){
+    function aboutUs()
+    {
         return view('aboutus');
     }
-    function contactUs(){
+    function contactUs()
+    {
         return view('contactus');
     }
-    function blog($name){
+    function blog($name)
+    {
         return view('blog');
     }
-    function blogs(){
+    function blogs()
+    {
         return view('blog');
     }
 }
